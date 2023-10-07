@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/header')%>
+  </head>
+  <body>
+    <%- include('partials/navigation')%>
+    <div class="fondo">
+      <div class="container p-4">
+        <form method="POST" action="/newProduct" class="card card-body trans">
+          <div class="from-group">
+            <label for="name">HOTEL</label>
+            <input type="text" class="form-control" name="name" placeholder="Ingresa el nombre del hotel" autofocus required/>
+          </div>
+          <div class="from-group">
+            <label for="description">RESEÑA BREVE DEL HOTEL:</label>
+            <input type="text" class="form-control" name="description" placeholder="Ingresa reseña" required/>
+          </div>
+          <div class="from-group">
+            <label for="price">PRECIO</label>
+            <input type="text" class="form-control" name="price" placeholder="Ingresa precio" required/>
+          </div>
+          <div class="from-group">
+            <label for="image">IMAGEN</label>
+            <input type="text" class="form-control" name="image" placeholder="http://website.com (link de la imagen)" required/>
+          </div>
+          <input type="submit" class="btn btn-primary btn-block" value="Guardar">
+        </form>
+      </div>
+    </div>
+<%- include('partials/footer')%>
+  </body>
+</html>

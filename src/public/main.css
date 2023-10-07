@@ -1,0 +1,32 @@
+
+
+.fondo{
+  background-image:url(img/fondo.jpg) ;
+  background-position: center center; /*le colocamos valorespara tenerlo centrado*/
+     background-repeat: no-repeat;
+     background-attachment: fixed; /*sirve para que abarque toda la pagina*/
+     height: 600px;
+}
+
+.fondoDos{
+  background-image:url(img/fondo.jpg) ;
+  background-position: center center; /*le colocamos valorespara tenerlo centrado*/
+     background-repeat: no-repeat;
+     background-attachment: fixed; /*sirve para que abarque toda la pagina*/
+     height: 3000px;
+}
+.trans{
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+.extra{
+  margin-left: 50px;
+}
+.titulos{
+  background-color: rgba(17, 23, 32, 0.438);
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
+
